@@ -17,7 +17,7 @@ jobs:
         run: ls -la
 
       - name: Read Application File
-        run: cat app.txt
+        run: cat abc.txt
 
       - name: Print Success Message
         run: echo "CI Pipeline Completed Successfully"
